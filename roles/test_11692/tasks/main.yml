@@ -1,0 +1,6 @@
+---
+- name: run-first-task
+  file: path={{ first_task_file }} state=touch
+
+- name: run-second-task
+  file: path={{ second_task_file }} state=touch
